@@ -1,0 +1,21 @@
+.inactive {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.active { 
+    @apply bg-orange-500;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
